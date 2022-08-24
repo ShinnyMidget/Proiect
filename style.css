@@ -1,0 +1,41 @@
+html{
+    background:url(pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+body{
+    display:grid;
+    place-items:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    line-height:1.5em;
+    text-align: center;
+    color:white;
+}
+.Container{
+    place-items:center;
+    margin:2vh auto;
+    background-color:rgba(148, 148, 170, 0.5);
+    padding:2rem;
+    border-radius:2rem;
+    font-size:clamp(1rem, 2vw, 2rem);
+    line-height:2em;
+}
+@media(min-width:380px){.Avatar{float:left;}}
+ul{
+    list-style-type: none;
+}
+
+.palat{
+    display:block; float:left; width:20%; height:auto;
+    margin: 0 1em 0 0;}
+}
+.ListaLinkuri{ display:block; margin:0; padding:0;}
+.ListaItem{ display:block; margin:0; padding:0; border-bottom:1px solid}
+.ListaLink{ display:block; padding:0.5em; color:aliceblue}
+.ListaTitlu .ListaText{ display:block; margin:0; padding:0; font-size:1em; line-height:1.5em;}
+.ListaLink:hover{
+    color:blue; background:ghostwhite;
+}
+
+
